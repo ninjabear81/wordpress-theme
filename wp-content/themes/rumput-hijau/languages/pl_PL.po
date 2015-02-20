@@ -1,0 +1,489 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rumput Hijau 1.0.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-11 18:22+0700\n"
+"PO-Revision-Date: 2012-03-23 19:32+0100\n"
+"Last-Translator: pl2wp Team <pl2wp@prywatny.eu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:14
+msgid "Error 404 - Not Found"
+msgstr "Błąd 404 - nie znaleziono strony"
+
+#: 404.php:18
+msgid "It seems we cant find what you are looking for. Perhaps searching or one of the links below, can help."
+msgstr "Wydaje się, że nie można znaleźć tego czego szukasz. Być może ponowne wyszukawianie lub jeden z poniższych linków mogą pomóc."
+
+#: 404.php:24
+msgid "Most Used Categories"
+msgstr "Najczęściej używane kategorie"
+
+#: archive.php:14
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archiwa dzienne: %s"
+
+#: archive.php:16
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archiwa miesięczne: %s"
+
+#: archive.php:18
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archiwa roczne: %s"
+
+#: archive.php:20
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archiwum kategorii: %s"
+
+#: archive.php:22
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archiwum tagów: %s"
+
+#: archive.php:24
+msgid "Blog Archives"
+msgstr "Archiwym bbloga"
+
+#: author.php:15
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archiwum autorów: %s"
+
+#: comments.php:11
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Ten post jest zabezpieczony hasłem. Wprowadź hasło aby zobaczyć komentarze."
+
+#: comments.php:23
+#, php-format
+msgid "One Response to %2$s"
+msgstr "Jedna odpowiedź do %2$s"
+
+#: comments.php:41
+msgid "Comments are closed."
+msgstr "Komentarze są wyłączone."
+
+#: comments.php:57
+msgid "Name"
+msgstr "Nazwisko"
+
+#: comments.php:60
+msgid "Email"
+msgstr "e-mail"
+
+#: comments.php:63
+msgid "Website"
+msgstr "WWW"
+
+#: comments.php:66
+msgid "Your Comment <span class=\"required\">*</span>"
+msgstr "Twój komentarz <span class=\"required\">*</span>"
+
+#: functions.php:46
+msgid "Primary Menu"
+msgstr "Menu główne"
+
+#: header.php:42
+#: header.php:44
+msgid "Home"
+msgstr "Strona główna"
+
+#: image.php:16
+#, php-format
+msgid "Return to %s"
+msgstr "Powrót do %s"
+
+#: image.php:30
+msgid "Download Image &raquo;"
+msgstr "Pobierz obraz &raquo;"
+
+#: image.php:50
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Przepraszamy, brak załączników spełniających podane kryteria."
+
+#: index.php:17
+msgid "Not Found"
+msgstr "Nie znaleziono"
+
+#: index.php:18
+msgid "Sorry, but you are looking for something that is not here."
+msgstr "Przepraszamy, ale szukasz czegoś, co nie jest dostępne."
+
+#: index.php:26
+msgid "&larr; Older posts"
+msgstr "&larr; Starsze posty"
+
+#: index.php:27
+msgid "Newer posts &rarr;"
+msgstr "Nowsze posty &rarr;"
+
+#: loop-aside.php:28
+msgid "Read the full article &raquo;"
+msgstr "Przeczytaj cały artykuł &raquo;"
+
+#: loop-aside.php:36
+#: loop-gallery.php:40
+#: loop-image.php:22
+#: loop-quote.php:19
+#: loop-single.php:40
+#: loop-video.php:22
+msgid "Pages:"
+msgstr "Strony:"
+
+#: loop-gallery.php:20
+msgid "View the pictures &rarr;"
+msgstr "Wyświetl obrazy &rarr;"
+
+#: loop-gallery.php:32
+#, php-format
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgstr "Ta galeria zawiera <a %1$s>%2$s zdjęcia</a>."
+
+#: page-fullwidth.php:16
+#: page-sitemap.php:29
+#: page.php:20
+#: template.php:25
+msgid "Edit"
+msgstr "Edytuj"
+
+#: page-sitemap.php:17
+msgid "Pages"
+msgstr "Strony"
+
+#: page-sitemap.php:20
+msgid "Categories"
+msgstr "Kategorie"
+
+#: page-sitemap.php:23
+msgid "Archives"
+msgstr "Archiwa"
+
+#: page-sitemap.php:26
+msgid "Tags"
+msgstr "Tagi"
+
+#: search.php:12
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Efekt szukania: %s"
+
+#: single.php:22
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Poprzedni"
+
+#: single.php:23
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Następny <span class=\"meta-nav\">&rarr;</span>"
+
+#: extensions.php:66
+#: extensions.php:68
+msgid "Category Archive: "
+msgstr "Archiwum kategorii:"
+
+#: extensions.php:92
+#, php-format
+msgid "Posts Published in: %s"
+msgstr "Opublikowano w: %s"
+
+#: extensions.php:144
+msgid "Search Results:"
+msgstr "Efekt wyszukiwania:"
+
+#: extensions.php:149
+msgid "Tag Archive:"
+msgstr "Archiwum tagów:"
+
+#: extensions.php:154
+msgid "Posts Written by:"
+msgstr "Napisano prze:"
+
+#: extensions.php:159
+msgid "Error 404:"
+msgstr "Błąd 404:"
+
+#: extensions.php:160
+msgid "Page Not Found"
+msgstr "Nie znaleziono strony"
+
+#: extensions.php:164
+msgid "Post Format Archive:"
+msgstr "Post Format Archive:"
+
+#: extensions.php:201
+msgid "Display your recent tweets to your readers."
+msgstr "Wyświetlaj najnowsze Tweet'y."
+
+#: extensions.php:202
+msgid "&raquo; Rumputhijau Twitter Widget"
+msgstr "&raquo; Rumputhijau Twitter Widget"
+
+#: extensions.php:214
+msgid "Title:"
+msgstr "Tytuł"
+
+#: extensions.php:223
+msgid "Twitter Username:"
+msgstr "Twitter - nazwa użytkownika"
+
+#: extensions.php:234
+msgid "Number of Tweets to Retrieve:"
+msgstr "Ilość Tweet'ów do wyświetlenia"
+
+#: metabox.php:13
+msgid "Big Image URL"
+msgstr "Adres URL dużego obrazu"
+
+#: metabox.php:23
+msgid "Big Image URL:"
+msgstr "Adres URL dużego obrazu:"
+
+#: metabox.php:25
+msgid "You can display big image before the content, insert your image url here."
+msgstr "Możesz wyświetlać większy obrazek przed zawartością. Umieść ling to pliku tutaj."
+
+#: template.php:20
+#, php-format
+msgid "<span class=\"%1$s\">%2$s</span>"
+msgstr "<span class=\"%1$s\">%2$s</span>"
+
+#: template.php:23
+#, php-format
+msgid "<span class=\"%1$s category\">%2$s</span>"
+msgstr "<span class=\"%1$s category\">%2$s</span>"
+
+#: template.php:44
+#, php-format
+msgid "<span class=\"published\">%1$s</span><span class=\"author vcard\"><a class=\"url fn n\" href=\"%2$s\" title=\"%3$s\" rel=\"author\">%4$s</a></span><span class=\"entry-permalink\"><a href=\"%5$s\" title=\"%6$s\" rel=\"bookmark\">Permalink</a></span>"
+msgstr "<span class=\"published\">%1$s</span><span class=\"author vcard\"><a class=\"url fn n\" href=\"%2$s\" title=\"%3$s\" rel=\"author\">%4$s</a></span><span class=\"entry-permalink\"><a href=\"%5$s\" title=\"%6$s\" rel=\"bookmark\">Odnośnik bezpośredni</a></span>"
+
+#: template.php:47
+#, php-format
+msgid "View all posts by %s"
+msgstr "Zobacz wszystki posty %s"
+
+#: template.php:50
+#, php-format
+msgid "Permalink to %s"
+msgstr "Odnośnik bezpośredni do %s"
+
+#: template.php:55
+msgid "Leave a comment"
+msgstr "Zostaw komentarz"
+
+#: template.php:55
+msgid "1 Comment"
+msgstr "1 kometarz"
+
+#: template.php:55
+msgid "% Comments"
+msgstr "% Komentarzy"
+
+#: template.php:66
+msgid "Share This &rarr;"
+msgstr "Udostępnij &rarr;"
+
+#: template.php:223
+msgid "&larr; Older Comments"
+msgstr "&larr; Starsze komentarze"
+
+#: template.php:224
+msgid "Newer Comments &rarr;"
+msgstr "Nowsze komentarze &rarr;"
+
+#: widgets.php:12
+msgid "General"
+msgstr "Główne"
+
+#: widgets.php:13
+msgid "This sidebar appears on the right side of your site"
+msgstr "Pasek boczny jest wyświetlany po prawej stronie Twojej strony."
+
+#: widgets.php:21
+msgid "Footer Widget 1"
+msgstr "Widget stopki 1"
+
+#: widgets.php:22
+#: widgets.php:31
+#: widgets.php:40
+#: widgets.php:49
+msgid "This sidebar appears on the footer of your site"
+msgstr "Widget jest wyświetlany w stopce strony."
+
+#: widgets.php:30
+msgid "Footer Widget 2"
+msgstr "Widget stopki 2"
+
+#: widgets.php:39
+msgid "Footer Widget 3"
+msgstr "Widget stopki 3"
+
+#: widgets.php:48
+msgid "Footer Widget 4"
+msgstr "Widget stopki 4"
+
+#: options.php:24
+msgid "General Settings"
+msgstr "Ustawienia główne"
+
+#: options.php:31
+msgid "Layout Settings"
+msgstr "Ustawienia układu"
+
+#: options.php:38
+msgid "Custom Css"
+msgstr "CSS użytkownika"
+
+#: options.php:43
+msgid "Upload custom header :"
+msgstr "Ustaw własny nagłówek:"
+
+#: options.php:44
+msgid "Custom Menu :"
+msgstr "Własne menu:"
+
+#: options.php:45
+msgid "Upload Logo :"
+msgstr "Wczytaj logo:"
+
+#: options.php:46
+msgid "Upload Favicon :"
+msgstr "Wczytaj Favicon :"
+
+#: options.php:47
+msgid "Default Thumbnail :"
+msgstr "Miniatura domyślna:"
+
+#: options.php:48
+msgid "Display social button :"
+msgstr "Wyświetl ikony portali społecznościowych:"
+
+#: options.php:49
+msgid "Header Script :"
+msgstr "Skrypt nagłówka"
+
+#: options.php:50
+msgid "Tracking Code :"
+msgstr "Śledzenie kodu:"
+
+#: options.php:52
+msgid "Fonts :"
+msgstr "Czcionki:"
+
+#: options.php:53
+msgid "Theme Layouts :"
+msgstr "Układ tematu:"
+
+#: options.php:55
+msgid "Custom CSS :"
+msgstr "CSS użytkownika:"
+
+#: options.php:67
+#: options.php:68
+msgid "Rumput Hijau Theme Options"
+msgstr "Rumput Hijau opcje tematu"
+
+#: options.php:83
+msgid "Yes"
+msgstr "Tak"
+
+#: options.php:87
+msgid "No"
+msgstr "Nie"
+
+#: options.php:101
+msgid "Content on left"
+msgstr "Pasek boczny z prawej strony"
+
+#: options.php:106
+msgid "One-column - no sidebar"
+msgstr "Jedna kolumna - bez paska bocznego"
+
+#: options.php:178
+#, php-format
+msgid "If you want to upload your custom header. Please <a href=\"%1$s\">Go to this page</a>"
+msgstr "Jeżeli chcesz załadować swój nagłówek, odwiedź <a href=\"%1$s\">tę stronę</a>"
+
+#: options.php:186
+#, php-format
+msgid "Easily add, edit and delete your menus using custom menus. Please <a href=\"%1$s\">Go to this page</a> to setup your menus"
+msgstr "Proste w zarządzaniu menu użytkownika. Odwiedź <a href=\"%1$s\">tę stronę</a>, aby skonfigurować menu"
+
+#: options.php:202
+msgid "Enter the URL or upload an image for the <strong>Logo</strong>"
+msgstr "Wprowadź adres URL lub załaduj obrazek <strong>Logo</strong>"
+
+#: options.php:224
+msgid "Enter the URL or upload an image for the <strong>Favicon</strong>"
+msgstr "Wprowadź adres URL lub załaduj obrazek <strong>Favicon</strong>"
+
+#: options.php:244
+msgid "Default thumbnail for the open graph"
+msgstr "Domyślna miniatura"
+
+#: options.php:263
+msgid "Social share button on single page"
+msgstr "Przyciski portali społecznościowych na pojedyńczej stronie"
+
+#: options.php:276
+msgid "If you need to add scripts to your header (like meta tag verification, perhaps), you should enter them in the box above. They will be added before &lt;/head&gt; tag"
+msgstr "Jeśli chcesz dodać skrypty do nagłówka, możesz je wpisać w polu powyżej. Zostaną one dodane przed znacznikiem &lt;/head&gt;"
+
+#: options.php:289
+msgid "Put your tracking script here. Such as google analytic script, they will be added before &lt;/body&gt; tag"
+msgstr "Umieścić skrypt śledzenia tutaj. Takie skrypty jak Google Analytics zostaną omieszczone przed znacznikiem &lt;/body&gt;."
+
+#: options.php:307
+msgid "Default: Arial"
+msgstr "Domyślnie: Arial"
+
+#: options.php:348
+#, php-format
+msgid "%s Theme Options"
+msgstr "%s opcje Tematu"
+
+#: options.php:366
+msgid "Give Rumput Hijau 5 Star Rating"
+msgstr "Oddaj głos na Rumput Hijau"
+
+#: options.php:368
+msgid "If you love this theme, please give 5 star rating at wordpress directory. <a href=\"http://wordpress.org/extend/themes/rumput-hijau\" target=\"_blank\">Give 5 star rating</a>"
+msgstr "Jeżeli lubisz ten temat, oddaj na mnie 5 gwiazdek w katalogu wordpress'a. <a href=\"http://wordpress.org/extend/themes/rumput-hijau\" target=\"_blank\">5 gwiazdek</a>"
+
+#: options.php:373
+msgid "Support"
+msgstr "Wsparcie"
+
+#: options.php:375
+msgid "Need a support ? Send me an email to <a href=\"mailto:asksatrya@gmail.com\">asksatrya@gmail.com</a>"
+msgstr "Potrzebujesz wsparcia? Wyślij do mnie e-mail <a href=\"mailto:asksatrya@gmail.com\">asksatrya@gmail.com</a>"
+
+#: options.php:380
+msgid "Links"
+msgstr "Linki"
+
+#: options.php:383
+msgid "Rumput Hijau by Satrya"
+msgstr "Rumput Hijau by Satrya"
+
+#: options.php:384
+msgid "Follow me @satryaWp"
+msgstr "Śledź nas na Twitt'erze @satryaWp"
+
+#: options.php:390
+msgid "Contribute to Rumput Hijau"
+msgstr "Przyczyń się do rozwoju Rumput Hijau"
+
+#: options.php:393
+msgid "Language submission, just drop an email to asksatrya@gmail.com"
+msgstr "Wyślij swoje tłumaczenie na adres asksatrya@gmail.com"
+
+#: options.php:394
+msgid "Fork Rumput Hijau on github"
+msgstr "Fork Rumput Hijau on github"
+

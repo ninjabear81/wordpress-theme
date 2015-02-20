@@ -1,0 +1,531 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rumput Hijau 1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-01 14:50+0700\n"
+"PO-Revision-Date: 2012-04-15 20:02+0700\n"
+"Last-Translator: Satrya <satryabima24@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;__;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: d:/xampp/htdocs/satrya/wp-content/themes/rumput-hijau\n"
+
+#: 404.php:14
+msgid "Error 404 - Not Found"
+msgstr "Error 303 - Tidak dapat ditemukan"
+
+#: 404.php:18
+msgid "It seems we cant find what you are looking for. Perhaps searching or one of the links below, can help."
+msgstr "Sepertinya apa yang anda cari tidak dapat ditemukan. Mungkin dengan mencari kembali atau salah satu link dibawah ini, dapat membantu"
+
+#: 404.php:24
+msgid "Most Used Categories"
+msgstr "Kategory yang paling sering digunakan"
+
+#: archive.php:14
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Arsip Harian: %s"
+
+#: archive.php:16
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Arsip Bulanan: %s"
+
+#: archive.php:18
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Arsip Tahunana: %s"
+
+#: archive.php:20
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Arsip Kategory: %s"
+
+#: archive.php:22
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Arsip Tag: %s"
+
+#: archive.php:24
+msgid "Blog Archives"
+msgstr "Arsip Blog"
+
+#: author.php:15
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Arsip Penulis: %s"
+
+#: comments.php:11
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Artikel ini diproteksi oleh password. Masukan password untuk melihat komentar."
+
+#: comments.php:23
+#, php-format
+msgid "One Response to %2$s"
+msgstr "Satu Respon untuk %2$s"
+
+#: comments.php:41
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#: comments.php:57
+msgid "Name"
+msgstr "Nama"
+
+#: comments.php:60
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:63
+msgid "Website"
+msgstr "Situs"
+
+#: comments.php:66
+msgid "Your Comment <span class=\"required\">*</span>"
+msgstr "Komentar Anda <span class=\"required\">*</span>"
+
+#: functions.php:46
+msgid "Primary Menu"
+msgstr "Menu Utama"
+
+#: image.php:16
+#, php-format
+msgid "Return to %s"
+msgstr "Kembali ke %s"
+
+#: image.php:16
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: image.php:30
+msgid "Download Image &raquo;"
+msgstr "Unduh Gambar &raquo;"
+
+#: image.php:50
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Maaf, tidak ada media yang sesuai dengan kriteria anda."
+
+#: index.php:17
+msgid "Not Found"
+msgstr "Tidak Ditemukan"
+
+#: index.php:18
+msgid "Sorry, but you are looking for something that is not here."
+msgstr "Maaf, tapi anda mencari sesuatu yang tidak ada disini"
+
+#: index.php:26
+msgid "&larr; Older posts"
+msgstr "&larr; Artikel lama"
+
+#: index.php:27
+msgid "Newer posts &rarr;"
+msgstr "Artikel terbaru &rarr;"
+
+#: loop-aside.php:28
+msgid "Read the full article &raquo;"
+msgstr "Baca artikel selengkapnya &raquo;"
+
+#: loop-aside.php:36
+#: loop-gallery.php:40
+#: loop-image.php:22
+#: loop-quote.php:19
+#: loop-single.php:40
+#: loop-video.php:22
+msgid "Pages:"
+msgstr "Halaman:"
+
+#: loop-gallery.php:20
+msgid "View the pictures &rarr;"
+msgstr "Lihat gambar &rarr;"
+
+#: loop-gallery.php:32
+#, php-format
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgstr "Galleri ini terdiri dari <a %1$s>%2$s foto</a>."
+
+#: page-fullwidth.php:16
+#: page-sitemap.php:29
+#: page.php:20
+#: template.php:213
+msgid "Edit"
+msgstr "Edit"
+
+#: page-sitemap.php:17
+msgid "Pages"
+msgstr "Halaman"
+
+#: page-sitemap.php:20
+msgid "Categories"
+msgstr "Kategori"
+
+#: page-sitemap.php:23
+msgid "Archives"
+msgstr "Arsip"
+
+#: page-sitemap.php:26
+msgid "Tags"
+msgstr "Tag"
+
+#: searchform.php:11
+msgid "Search"
+msgstr "Mencari"
+
+#: search.php:12
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Hasil pencarian untuk: %s"
+
+#: single.php:22
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Sebelumnya"
+
+#: single.php:23
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Selanjutnya <span class=\"meta-nav\">&rarr;</span>"
+
+#: extensions.php:66
+#: extensions.php:68
+msgid "Category Archive: "
+msgstr "Arsip kategori:"
+
+#: extensions.php:92
+#, php-format
+msgid "Posts Published in: %s"
+msgstr "Artikel Dipublikasi di: %s"
+
+#: extensions.php:144
+msgid "Search Results:"
+msgstr "Hasil Pencarian:"
+
+#: extensions.php:149
+msgid "Tag Archive:"
+msgstr "Arsip Tag:"
+
+#: extensions.php:154
+msgid "Posts Written by:"
+msgstr "Artikel Ditulis oleh:"
+
+#: extensions.php:159
+msgid "Error 404:"
+msgstr "Error 404:"
+
+#: extensions.php:160
+msgid "Page Not Found"
+msgstr "Halaman Tidak Ditemukan"
+
+#: extensions.php:164
+msgid "Post Format Archive:"
+msgstr "Arsip Format Artikel:"
+
+#: extensions.php:201
+msgid "Display your recent tweets to your readers."
+msgstr "Tampilkan tweet terbaru anda pada pembaca anda."
+
+#: extensions.php:202
+msgid "&raquo; Rumputhijau Twitter Widget"
+msgstr "&raquo; Rumputhijau Widget Twitter"
+
+#: extensions.php:214
+msgid "Title:"
+msgstr "Judul:"
+
+#: extensions.php:223
+msgid "Twitter Username:"
+msgstr "Username Twitter:"
+
+#: extensions.php:234
+msgid "Number of Tweets to Retrieve:"
+msgstr "Jumlah tweet yang akan diambil:"
+
+#: metabox.php:13
+msgid "Big Image URL"
+msgstr "URL Gambar Besar"
+
+#: metabox.php:23
+msgid "Big Image URL:"
+msgstr "URL Gambar Besar:"
+
+#: metabox.php:25
+msgid "You can display big image before the content, insert your image url here."
+msgstr "Anda dapat menampilkan gambar berukuran besar sebelum kontent, masukan url gambar anda disini."
+
+#: template.php:158
+#: template.php:160
+msgid "Home"
+msgstr "Beranda"
+
+#: template.php:208
+#, php-format
+msgid "<span class=\"%1$s\">%2$s</span>"
+msgstr "<span class=\"%1$s\">%2$s</span>"
+
+#: template.php:211
+#, php-format
+msgid "<span class=\"%1$s category\">%2$s</span>"
+msgstr "<span class=\"%1$s category\">%2$s</span>"
+
+#: template.php:233
+#, php-format
+msgid "<span class=\"published\">%1$s</span><span class=\"author vcard\"><a class=\"url fn n\" href=\"%2$s\" title=\"%3$s\" rel=\"author\">%4$s</a></span><span class=\"entry-permalink\"><a href=\"%5$s\" title=\"%6$s\" rel=\"bookmark\">Permalink</a></span>"
+msgstr "<span class=\"published\">%1$s</span><span class=\"author vcard\"><a class=\"url fn n\" href=\"%2$s\" title=\"%3$s\" rel=\"author\">%4$s</a></span><span class=\"entry-permalink\"><a href=\"%5$s\" title=\"%6$s\" rel=\"bookmark\">Permalink</a></span>"
+
+#: template.php:236
+#, php-format
+msgid "View all posts by %s"
+msgstr "Lihat semua artikel dari %s"
+
+#: template.php:239
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink untuk %s"
+
+#: template.php:244
+msgid "Leave a comment"
+msgstr "Tinggalkan komentar"
+
+#: template.php:244
+msgid "1 Comment"
+msgstr "1 Komentar"
+
+#: template.php:244
+msgid "% Comments"
+msgstr "% Komentar"
+
+#: template.php:255
+msgid "Share This &rarr;"
+msgstr "Bagikan &rarr;"
+
+#: template.php:297
+msgid "&larr; Older Comments"
+msgstr "&larr; Komentar Lama"
+
+#: template.php:298
+msgid "Newer Comments &rarr;"
+msgstr "Komentar Terbaru &rarr;"
+
+#: widgets.php:12
+msgid "General"
+msgstr "Umum"
+
+#: widgets.php:13
+msgid "This sidebar appears on the right side of your site"
+msgstr "Sidebar ini akan muncul disebelah kanan situs anda"
+
+#: widgets.php:21
+msgid "Footer Widget 1"
+msgstr "Widget Footer 1"
+
+#: widgets.php:22
+#: widgets.php:31
+#: widgets.php:40
+#: widgets.php:49
+msgid "This sidebar appears on the footer of your site"
+msgstr "Sidebar ini akan muncul dibagian bawah situs anda"
+
+#: widgets.php:30
+msgid "Footer Widget 2"
+msgstr "Widget Footer 2"
+
+#: widgets.php:39
+msgid "Footer Widget 3"
+msgstr "Widget Footer 3"
+
+#: widgets.php:48
+msgid "Footer Widget 4"
+msgstr "Widget Footer 4"
+
+#: options.php:24
+msgid "General Settings"
+msgstr "Settingan Umum"
+
+#: options.php:31
+msgid "Layout Settings"
+msgstr "Settingan Layout"
+
+#: options.php:38
+msgid "Meta Verification"
+msgstr "Meta Verifikasi"
+
+#: options.php:45
+msgid "Custom Css"
+msgstr "Css Kustom"
+
+#: options.php:50
+msgid "Upload custom header :"
+msgstr "Unggah header kustom :"
+
+#: options.php:51
+msgid "Custom Menu :"
+msgstr "Menu Kustom :"
+
+#: options.php:52
+msgid "Upload Logo :"
+msgstr "Unggah Logo :"
+
+#: options.php:53
+msgid "Upload Favicon :"
+msgstr "Unggah Favicon :"
+
+#: options.php:54
+msgid "Default Thumbnail :"
+msgstr "Thumbnail Standar :"
+
+#: options.php:55
+msgid "Display social button :"
+msgstr "Tampilkan tombol social :"
+
+#: options.php:56
+msgid "Header Script :"
+msgstr "Script pada header :"
+
+#: options.php:57
+msgid "Tracking Code :"
+msgstr "Kode Pelacakan :"
+
+#: options.php:59
+msgid "Fonts :"
+msgstr "Font :"
+
+#: options.php:60
+msgid "Theme Layouts :"
+msgstr "Layout Template :"
+
+#: options.php:62
+msgid "Google Meta Content :"
+msgstr "Meta Konten Google"
+
+#: options.php:63
+msgid "Bing Meta Content :"
+msgstr "Meta Konten Bing"
+
+#: options.php:64
+msgid "Alexa Meta Content :"
+msgstr "Meta Konten Alexa"
+
+#: options.php:66
+msgid "Custom CSS :"
+msgstr "Kustom CSS :"
+
+#: options.php:78
+#: options.php:79
+msgid "Rumput Hijau Theme Options"
+msgstr "Settingan Template Rumput Hijau"
+
+#: options.php:94
+msgid "Yes"
+msgstr "Ya"
+
+#: options.php:98
+msgid "No"
+msgstr "Tidak"
+
+#: options.php:112
+msgid "Content on left"
+msgstr "Konten di kiri"
+
+#: options.php:117
+msgid "One-column - no sidebar"
+msgstr "Satu-kolom - Tidak ada sidebar"
+
+#: options.php:189
+#, php-format
+msgid "If you want to upload your custom header. Please <a href=\"%1$s\">Go to this page</a>"
+msgstr "Bila anda ingin mengunggah header kustom anda. Silahkan <a href=\"%1$s\">Pergi ke halaman ini</a>"
+
+#: options.php:197
+#, php-format
+msgid "Easily add, edit and delete your menus using custom menus. Please <a href=\"%1$s\">Go to this page</a> to setup your menus"
+msgstr "Mudah untuk menambah, mengedit dan menghapus menu dengan menggunakan fitur menu kustom. Silahkan <a href=\"%1$s\">Pergi ke halaman ini</a> untuk mengatur menu anda"
+
+#: options.php:213
+msgid "Enter the URL or upload an image for the <strong>Logo</strong>"
+msgstr "Masukan url atau unggah gambar untuk <strong>Logo</strong>"
+
+#: options.php:235
+msgid "Enter the URL or upload an image for the <strong>Favicon</strong>"
+msgstr "Masukan url atau unggah gambar untuk <strong>Favicon</strong>"
+
+#: options.php:255
+msgid "Default thumbnail for the open graph"
+msgstr "Standar thumbnail untuk open graph"
+
+#: options.php:274
+msgid "Social share button on single page"
+msgstr "Tombol bagikan pada halaman single"
+
+#: options.php:287
+msgid "If you need to add scripts to your header (like meta tag verification, perhaps), you should enter them in the box above. They will be added before &lt;/head&gt; tag"
+msgstr "Bila anda membutuhkan penambahan script pada header (seperti verifikasi meta tag, mungkin), anda harus memasukan script tersebut pada box yang sudah disediakan di atas ini. Script tersebut akan ditambahkan sebelum tag &lt;/head&gt;"
+
+#: options.php:300
+msgid "Put your tracking script here. Such as google analytic script, they will be added before &lt;/body&gt; tag"
+msgstr "Taruh code pelacakan anda disini. Seperti google analitik, Script tersebut akan ditambahkan sebelum tag &lt;/body&gt;"
+
+#: options.php:318
+msgid "Default: Arial"
+msgstr "Standar: Arial"
+
+#: options.php:353
+msgid "Enter only the meta values/content. <a href='http://www.google.com/webmasters'>Google webmaster tools &rarr;</a>"
+msgstr "Masukan hanya meta content. <a href='http://www.google.com/webmasters'>Google webmaster tools &rarr;</a>"
+
+#: options.php:369
+msgid "Enter only the meta values/content. <a href='http://www.bing.com/webmaster/'>Bing webmaster &rarr;</a>"
+msgstr "Masukan hanya meta content. <a href='http://www.bing.com/webmaster/'>Bing webmaster &rarr;</a>"
+
+#: options.php:385
+msgid "Enter only the meta values/content. <a href='http://www.alexa.com/'>Alexa &rarr;</a>"
+msgstr "Masukan hanya meta content. <a href='http://www.alexa.com/'>Alexa &rarr;</a>"
+
+#: options.php:407
+#, php-format
+msgid "%s Theme Options"
+msgstr "%s Settingan Template"
+
+#: options.php:425
+msgid "Give Rumput Hijau 5 Star Rating"
+msgstr "Beri Rumput Hijau rating 5 bintang"
+
+#: options.php:427
+msgid "If you love this theme, please give 5 star rating at wordpress directory. <a href=\"http://wordpress.org/extend/themes/rumput-hijau\" target=\"_blank\">Give 5 star rating</a>"
+msgstr "Bila anda menyukai template ini, mohon untuk memberi rating 5 bintang pada direktori wordpress. <a href=\"http://wordpress.org/extend/themes/rumput-hijau\" target=\"_blank\">Beri rating 5 bintang</a>"
+
+#: options.php:432
+msgid "Support"
+msgstr "Bantuan"
+
+#: options.php:434
+msgid "Need a support ? Send me an email to <a href=\"mailto:asksatrya@gmail.com\">asksatrya@gmail.com</a>"
+msgstr "Butuh bantuan ? Kirim email pada <a href=\"mailto:asksatrya@gmail.com\">asksatrya@gmail.com</a>"
+
+#: options.php:439
+msgid "Links"
+msgstr "Link"
+
+#: options.php:442
+msgid "Rumput Hijau by Satrya"
+msgstr "Rumput Hijau oleh Satrya"
+
+#: options.php:443
+msgid "Follow me @satryaWp"
+msgstr "Ikuti saya @satryaWp"
+
+#: options.php:449
+msgid "Contribute to Rumput Hijau"
+msgstr "Kontribusi pada Rumput Hijau"
+
+#: options.php:452
+msgid "Language submission, just drop an email to asksatrya@gmail.com"
+msgstr "Pengajuan bahasa, silahkan kirim ke asksatrya@gmail.com"
+
+#: options.php:453
+msgid "Fork Rumput Hijau on github"
+msgstr "Fork Rumput Hijau di github"
+

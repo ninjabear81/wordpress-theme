@@ -1,0 +1,489 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rumput Hijau 1.0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-11 18:22+0700\n"
+"PO-Revision-Date: 2012-03-18 20:21+0100\n"
+"Last-Translator: Zaantar <zaantar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:14
+msgid "Error 404 - Not Found"
+msgstr "Chyba 404 - Nenalezeno"
+
+#: 404.php:18
+msgid "It seems we cant find what you are looking for. Perhaps searching or one of the links below, can help."
+msgstr "Je nám líto, ale žádný obsah neodpovídá vašemu požadavku. Zkuste vyhledávání anebo některý z níže uvedených odkazů."
+
+#: 404.php:24
+msgid "Most Used Categories"
+msgstr "Nejpoužívanější rubriky"
+
+#: archive.php:14
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archivy dnů: %s"
+
+#: archive.php:16
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archivy měsíců: %s"
+
+#: archive.php:18
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archivy roků: %s"
+
+#: archive.php:20
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archivy rubrik: %s"
+
+#: archive.php:22
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archivy štítků: %s"
+
+#: archive.php:24
+msgid "Blog Archives"
+msgstr "Archivy"
+
+#: author.php:15
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archivy autoraů: %s"
+
+#: comments.php:11
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Příspěvek je chráněn heslem. Zadejte jej pro zobrazení komentářů"
+
+#: comments.php:23
+#, php-format
+msgid "One Response to %2$s"
+msgstr "Jedna odpověď na %2$s"
+
+#: comments.php:41
+msgid "Comments are closed."
+msgstr "Komentáře jsou uzavřeny."
+
+#: comments.php:57
+msgid "Name"
+msgstr "Jméno"
+
+#: comments.php:60
+msgid "Email"
+msgstr "E-mail"
+
+#: comments.php:63
+msgid "Website"
+msgstr "URL"
+
+#: comments.php:66
+msgid "Your Comment <span class=\"required\">*</span>"
+msgstr "Váš komentář <span class=\"required\">*</span>"
+
+#: functions.php:46
+msgid "Primary Menu"
+msgstr "Hlavní menu"
+
+#: header.php:42
+#: header.php:44
+msgid "Home"
+msgstr "Hlavní stránka"
+
+#: image.php:16
+#, php-format
+msgid "Return to %s"
+msgstr "Návrat na %s"
+
+#: image.php:30
+msgid "Download Image &raquo;"
+msgstr "Stáhnout obrázek &raquo;"
+
+#: image.php:50
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Je nám líto, ale žádný obsah neodpovídá vašemu požadavku."
+
+#: index.php:17
+msgid "Not Found"
+msgstr "Nenalezeno"
+
+#: index.php:18
+msgid "Sorry, but you are looking for something that is not here."
+msgstr "Je nám líto, ale hledáte něco, co se zde nenachází."
+
+#: index.php:26
+msgid "&larr; Older posts"
+msgstr "&larr; Starší příspěvky"
+
+#: index.php:27
+msgid "Newer posts &rarr;"
+msgstr "Novější příspěvky &rarr;"
+
+#: loop-aside.php:28
+msgid "Read the full article &raquo;"
+msgstr "Číst celý příspěvek &raquo;"
+
+#: loop-aside.php:36
+#: loop-gallery.php:40
+#: loop-image.php:22
+#: loop-quote.php:19
+#: loop-single.php:40
+#: loop-video.php:22
+msgid "Pages:"
+msgstr "Stránky:"
+
+#: loop-gallery.php:20
+msgid "View the pictures &rarr;"
+msgstr "Zobrazit obrázky &rarr;"
+
+#: loop-gallery.php:32
+#, php-format
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgstr "Tato galerie obsahuje <a %1$s>%2$s obrázek</a>."
+
+#: page-fullwidth.php:16
+#: page-sitemap.php:29
+#: page.php:20
+#: template.php:25
+msgid "Edit"
+msgstr "Upravit"
+
+#: page-sitemap.php:17
+msgid "Pages"
+msgstr "Stránky"
+
+#: page-sitemap.php:20
+msgid "Categories"
+msgstr "Kategorie"
+
+#: page-sitemap.php:23
+msgid "Archives"
+msgstr "Archivy"
+
+#: page-sitemap.php:26
+msgid "Tags"
+msgstr "Štítky"
+
+#: search.php:12
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Výsledky vyhledávání pro: %s"
+
+#: single.php:22
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Předchozí"
+
+#: single.php:23
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Následující <span class=\"meta-nav\">&rarr;</span>"
+
+#: extensions.php:66
+#: extensions.php:68
+msgid "Category Archive: "
+msgstr "Archiv rubriky:"
+
+#: extensions.php:92
+#, php-format
+msgid "Posts Published in: %s"
+msgstr "Příspěvek zveřejněn v: %s"
+
+#: extensions.php:144
+msgid "Search Results:"
+msgstr "Výsledky vyhledávání:"
+
+#: extensions.php:149
+msgid "Tag Archive:"
+msgstr "Archiv štítku:"
+
+#: extensions.php:154
+msgid "Posts Written by:"
+msgstr "Autor příspěvků:"
+
+#: extensions.php:159
+msgid "Error 404:"
+msgstr "Chyba 404:"
+
+#: extensions.php:160
+msgid "Page Not Found"
+msgstr "Stránka nenalezena."
+
+#: extensions.php:164
+msgid "Post Format Archive:"
+msgstr "Post Format Archive:"
+
+#: extensions.php:201
+msgid "Display your recent tweets to your readers."
+msgstr "Zobrazit vaše nejnovější tweety čtenářům."
+
+#: extensions.php:202
+msgid "&raquo; Rumputhijau Twitter Widget"
+msgstr "&raquo; Rumputhijau Twitter Widget"
+
+#: extensions.php:214
+msgid "Title:"
+msgstr "Titulek:"
+
+#: extensions.php:223
+msgid "Twitter Username:"
+msgstr "Jméno na Twitteru:"
+
+#: extensions.php:234
+msgid "Number of Tweets to Retrieve:"
+msgstr "Zobrazený počet tweetů:"
+
+#: metabox.php:13
+msgid "Big Image URL"
+msgstr "URL velkého obrázku"
+
+#: metabox.php:23
+msgid "Big Image URL:"
+msgstr "URL velkého obrázku:"
+
+#: metabox.php:25
+msgid "You can display big image before the content, insert your image url here."
+msgstr "Chcete-li zobrazit velký obrázek před obsahem, vložte zde jeho URL."
+
+#: template.php:20
+#, php-format
+msgid "<span class=\"%1$s\">%2$s</span>"
+msgstr "<span class=\"%1$s\">%2$s</span>"
+
+#: template.php:23
+#, php-format
+msgid "<span class=\"%1$s category\">%2$s</span>"
+msgstr "<span class=\"%1$s category\">%2$s</span>"
+
+#: template.php:44
+#, php-format
+msgid "<span class=\"published\">%1$s</span><span class=\"author vcard\"><a class=\"url fn n\" href=\"%2$s\" title=\"%3$s\" rel=\"author\">%4$s</a></span><span class=\"entry-permalink\"><a href=\"%5$s\" title=\"%6$s\" rel=\"bookmark\">Permalink</a></span>"
+msgstr "<span class=\"published\">%1$s</span><span class=\"author vcard\"><a class=\"url fn n\" href=\"%2$s\" title=\"%3$s\" rel=\"author\">%4$s</a></span><span class=\"entry-permalink\"><a href=\"%5$s\" title=\"%6$s\" rel=\"bookmark\">Permalink</a></span>"
+
+#: template.php:47
+#, php-format
+msgid "View all posts by %s"
+msgstr "Zobrazit všechny příspěvky od %s"
+
+#: template.php:50
+#, php-format
+msgid "Permalink to %s"
+msgstr "Trvalý odkaz na %s"
+
+#: template.php:55
+msgid "Leave a comment"
+msgstr "Zanechte komentář"
+
+#: template.php:55
+msgid "1 Comment"
+msgstr "Jeden komentář"
+
+#: template.php:55
+msgid "% Comments"
+msgstr "% komentářů"
+
+#: template.php:66
+msgid "Share This &rarr;"
+msgstr "Sdílet &rarr;"
+
+#: template.php:223
+msgid "&larr; Older Comments"
+msgstr "&larr; Starší komentáře"
+
+#: template.php:224
+msgid "Newer Comments &rarr;"
+msgstr "Novější komentáře &rarr;"
+
+#: widgets.php:12
+msgid "General"
+msgstr "Obecné"
+
+#: widgets.php:13
+msgid "This sidebar appears on the right side of your site"
+msgstr "Tento postranní panel se objeví vpravo na vašem webu"
+
+#: widgets.php:21
+msgid "Footer Widget 1"
+msgstr "Widget v zápatí 1"
+
+#: widgets.php:22
+#: widgets.php:31
+#: widgets.php:40
+#: widgets.php:49
+msgid "This sidebar appears on the footer of your site"
+msgstr "Tento panel se objeví v zápatí vašeho webu"
+
+#: widgets.php:30
+msgid "Footer Widget 2"
+msgstr "Widget v zápatí 2"
+
+#: widgets.php:39
+msgid "Footer Widget 3"
+msgstr "Widget v zápatí 3"
+
+#: widgets.php:48
+msgid "Footer Widget 4"
+msgstr "Widget v zápatí 4"
+
+#: options.php:24
+msgid "General Settings"
+msgstr "Obecná nastavení"
+
+#: options.php:31
+msgid "Layout Settings"
+msgstr "Rozvržení"
+
+#: options.php:38
+msgid "Custom Css"
+msgstr "Vlastní CSS"
+
+#: options.php:43
+msgid "Upload custom header :"
+msgstr "Nahrát vlastní záhlaví:"
+
+#: options.php:44
+msgid "Custom Menu :"
+msgstr "Vlastní menu:"
+
+#: options.php:45
+msgid "Upload Logo :"
+msgstr "Nahrát logo:"
+
+#: options.php:46
+msgid "Upload Favicon :"
+msgstr "Nahrát favicon:"
+
+#: options.php:47
+msgid "Default Thumbnail :"
+msgstr "Výchozí náhled:"
+
+#: options.php:48
+msgid "Display social button :"
+msgstr "Zobrazit tlačítka sociálních sítí:"
+
+#: options.php:49
+msgid "Header Script :"
+msgstr "Skripty v záhlaví:"
+
+#: options.php:50
+msgid "Tracking Code :"
+msgstr "Kód pro tracking:"
+
+#: options.php:52
+msgid "Fonts :"
+msgstr "Fonty:"
+
+#: options.php:53
+msgid "Theme Layouts :"
+msgstr "Rozvržení šablony:"
+
+#: options.php:55
+msgid "Custom CSS :"
+msgstr "Vlastní CSS:"
+
+#: options.php:67
+#: options.php:68
+msgid "Rumput Hijau Theme Options"
+msgstr "Rumput Hijau"
+
+#: options.php:83
+msgid "Yes"
+msgstr "Ano"
+
+#: options.php:87
+msgid "No"
+msgstr "Ne"
+
+#: options.php:101
+msgid "Content on left"
+msgstr "Obsah vlevo"
+
+#: options.php:106
+msgid "One-column - no sidebar"
+msgstr "Jeden sloupec - žádný postranní panel"
+
+#: options.php:178
+#, php-format
+msgid "If you want to upload your custom header. Please <a href=\"%1$s\">Go to this page</a>"
+msgstr "Pokud chcete nahrát vlastní obrázek v záhlaví, jděte na <a href=\"%1$s\">tuto stránku</a>"
+
+#: options.php:186
+#, php-format
+msgid "Easily add, edit and delete your menus using custom menus. Please <a href=\"%1$s\">Go to this page</a> to setup your menus"
+msgstr "Jednoduše upravte svá menu na <a href=\"%1$s\">této stránce</a>."
+
+#: options.php:202
+msgid "Enter the URL or upload an image for the <strong>Logo</strong>"
+msgstr "Vložte URL anebo nahrajte obrázek pro <strong>Logo</strong>"
+
+#: options.php:224
+msgid "Enter the URL or upload an image for the <strong>Favicon</strong>"
+msgstr "Vložte URL anebo nahrajte obrázek pro <strong>Favicon</strong>"
+
+#: options.php:244
+msgid "Default thumbnail for the open graph"
+msgstr "Výchozá náhled pro open graph"
+
+#: options.php:263
+msgid "Social share button on single page"
+msgstr "Tlačítko na sdílení v sociálních sítích na jednotlivých stránkách"
+
+#: options.php:276
+msgid "If you need to add scripts to your header (like meta tag verification, perhaps), you should enter them in the box above. They will be added before &lt;/head&gt; tag"
+msgstr "Potřebujete-li přidat skripty do svého záhlaví (např. ověření pomocí meta tagu), vložte je do tohoto textového pole. Budou přidány před tag &lt;/head&gt;."
+
+#: options.php:289
+msgid "Put your tracking script here. Such as google analytic script, they will be added before &lt;/body&gt; tag"
+msgstr "Vložte skripty pro sledování (jako např. Google Analytics) sem. Budou přidány před tag &lt;/body&gt;."
+
+#: options.php:307
+msgid "Default: Arial"
+msgstr "Výchozí: Arial"
+
+#: options.php:348
+#, php-format
+msgid "%s Theme Options"
+msgstr "Nastavení šablony %s"
+
+#: options.php:366
+msgid "Give Rumput Hijau 5 Star Rating"
+msgstr "Ohodnotit Rumput Hijau pěti hvězdičkami"
+
+#: options.php:368
+msgid "If you love this theme, please give 5 star rating at wordpress directory. <a href=\"http://wordpress.org/extend/themes/rumput-hijau\" target=\"_blank\">Give 5 star rating</a>"
+msgstr "Pokud se vám tato šablona líbí, ohodnoťte ji na Wordpress Directory. <a href=\"http://wordpress.org/extend/themes/rumput-hijau\" target=\"_blank\">Ohodnotit</a>"
+
+#: options.php:373
+msgid "Support"
+msgstr "Podpora"
+
+#: options.php:375
+msgid "Need a support ? Send me an email to <a href=\"mailto:asksatrya@gmail.com\">asksatrya@gmail.com</a>"
+msgstr "Potřebujete pomoci? Pošlete e-mail (anglicky) na <a href=\"mailto:asksatrya@gmail.com\">asksatrya@gmail.com</a> nebo (česky) na <a href=\"zaantar@zaantar.eu\">zaantar@zaantar.eu</a>"
+
+#: options.php:380
+msgid "Links"
+msgstr "Odkazy"
+
+#: options.php:383
+msgid "Rumput Hijau by Satrya"
+msgstr "Rumput Hijau od Satrya"
+
+#: options.php:384
+msgid "Follow me @satryaWp"
+msgstr "Sledovat na Twitteru: @satryaWp"
+
+#: options.php:390
+msgid "Contribute to Rumput Hijau"
+msgstr "Přispějte k vývoji Rumput Hijau"
+
+#: options.php:393
+msgid "Language submission, just drop an email to asksatrya@gmail.com"
+msgstr "Překlady odesílejte na asksatrya@gmail.com."
+
+#: options.php:394
+msgid "Fork Rumput Hijau on github"
+msgstr "Forknout Rumput Hijau na githubu"
+

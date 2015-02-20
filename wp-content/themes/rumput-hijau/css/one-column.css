@@ -1,0 +1,129 @@
+/*
+File Name: 		One Column
+Description: 	Responsive one column layout
+Version: 		1.0.0
+Author: 		Satrya
+Since:			Rumput_Hijau 1.1.1
+License: 		GNU General Public License v3
+License URI: 	http://www.gnu.org/licenses/gpl-3.0.html
+*/
+.one-column #container {
+  *zoom: 1;
+  margin: auto;
+  width: 66.146em;
+  max-width: 100%;
+}
+.one-column #container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.one-column #primary-nav .inside-primary-nav {
+  *zoom: 1;
+  margin: auto;
+  width: 66.146em;
+  max-width: 100%;
+}
+.one-column #primary-nav .inside-primary-nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.one-column #primary-nav .sf-menu {
+  display: inline;
+  float: left;
+  width: 70.931%;
+  margin-right: 2.325%;
+  margin-left: 2.325%;
+}
+.one-column #primary-nav #searchform {
+  display: inline;
+  float: left;
+  width: 22.094%;
+  margin-right: 2.325%;
+  display: inline;
+  float: right;
+  margin-right: 2.325%;
+  #margin-left: -1.538em;
+}
+.one-column #header {
+  display: inline;
+  float: left;
+  width: 95.35%;
+  margin-right: 2.325%;
+}
+.one-column #breadcrumbs {
+  display: inline;
+  float: left;
+  width: 95.35%;
+  margin-right: 2.325%;
+}
+.one-column #logo .site-title {
+  margin-right: 2%;
+  width: 58%;
+}
+.one-column #logo .site-description {
+  width: 40%;
+}
+.one-column #main-content {
+  display: inline;
+  float: left;
+  width: 95.35%;
+  margin-right: 2.325%;
+}
+.one-column #main-content .sticky .content-right {
+  width: 100%;
+}
+.one-column #main-content .sticky .content-left {
+  display: none;
+}
+.one-column #main-content .content-right {
+  display: inline;
+  float: left;
+  width: 82.927%;
+  margin-right: 2.439%;
+  display: inline;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1.538em;
+}
+.one-column #main-content .content-left {
+  display: inline;
+  float: left;
+  width: 14.635%;
+  margin-right: 2.439%;
+}
+.one-column #footer .inside-footer,
+.one-column #footer .footer-sidebar-inner {
+  *zoom: 1;
+  margin: auto;
+  width: 66.146em;
+  max-width: 100%;
+}
+.one-column #footer .inside-footer:after,
+.one-column #footer .footer-sidebar-inner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.one-column #footer .widget-footer {
+  display: inline;
+  float: left;
+  width: 30.233%;
+  margin-right: 2.325%;
+}
+.one-column #footer .footer-3 {
+  margin-right: 0;
+}
+.one-column #footer .footer-left {
+  display: inline;
+  float: left;
+  width: 46.512%;
+  margin-right: 2.325%;
+}
+.one-column #footer .footer-right {
+  display: inline;
+  float: left;
+  width: 46.512%;
+  margin-right: 2.325%;
+}

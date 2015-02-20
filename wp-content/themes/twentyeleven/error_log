@@ -1,0 +1,5 @@
+[28-Oct-2013 10:26:06 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/diyalog/public_html/wp-content/themes/twentyeleven/tag.php on line 10
+[31-Oct-2013 17:45:43 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/diyalog/public_html/wp-content/themes/twentyeleven/index.php on line 15
+[26-Dec-2013 08:24:23 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/diyalog/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[29-May-2014 16:29:55 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/diyalog/public_html/wp-content/themes/twentyeleven/tag.php on line 10
+[30-May-2014 12:43:53 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/diyalog/public_html/wp-content/themes/twentyeleven/404.php on line 10

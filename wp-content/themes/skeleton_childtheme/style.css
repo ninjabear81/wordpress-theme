@@ -1,0 +1,1614 @@
+/*
+Theme Name: DIYalogue
+Theme URI: http://www.simplethemes.com/wordpress-themes/theme/skeleton
+Description: Skeleton Child Theme. 
+Version: 0.1
+Author: D. Cook
+Author URI: 
+Template: smpl-skeleton
+License: GPL
+License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+/*
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+This child theme enables you to make customizations while allowing for safe updates to the parent theme.
+The parent theme's style.css is imported below. If you wish to make customizations, do one of the following:
+
+A.) Copy the contents of skeleton/style.css into this file, but leave the (above) child theme head in tact!
+B.) Add specific rules BELOW the import. This is intended for minimal customizations.
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+*/
+/* Global Reset 
+========================================================================== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del, dfn,
+em, img, ins, kbd, q, s, samp, small, strike, strong,
+sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;vertical-align: baseline;}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+
+ol, ul {list-style: none; }
+
+blockquote, q {quotes: none; }
+
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+
+table {border-collapse: collapse;border-spacing: 0;}
+
+table.pad td {padding: 10px;}
+
+pre,code {white-space: normal;background-color: #ededed;border-bottom: 1px solid #d9d9d9;border-top: 1px solid #d9d9d9;
+          font: 12px/24px "Open Sans","Lato",sans-serif;margin: 5px 0;padding: 5px;}
+
+p code {display: inline;}
+
+body {line-height: 150%;-webkit-text-size-adjust: 100%;font-size: 1em;}
+
+/* End Reset =====================================*/
+
+/* Table of Contents
+==================================================
+        # 1.0 Structural Customization
+        # 1.5 Accessability
+        # 2.0 Header
+        # 3.0 Navigation Bar
+        # 4.0 Typography
+        # 5.0 Tables
+        # 6.0 Widgets
+        # 7.0 WP Blog
+        # 8.0 Buttons
+        # 9.0 Tabs
+        # 10.0 Toggles
+        # 11.0 Callouts
+        # 12.0 Comments
+        # 13.0 WP Gallery
+        # 14.0 Misc
+        # 15.0 Custom Menus in Footer
+*/
+
+/* 1.0 Structural Customization 
+==================================================================*/
+
+body.sidebar-right #wrap #content {
+     float: left;
+}
+
+body.sidebar-right #wrap #sidebar {
+     float: right;
+}
+
+body.sidebar-right #wrap #sidebar .widget-container {
+     margin-left: 20px;
+     margin-right: 0px;
+}
+
+body.sidebar-left #wrap #content {
+     float: right;
+}
+
+body.sidebar-left #wrap #sidebar {
+     float: left;
+}
+
+body.sidebar-left #wrap #sidebar .widget-container {
+     margin-left: 0px;
+     margin-right: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 499px) {
+     #wrap #content {
+          width: 100% !important;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+     }
+}
+#menu-sidebar .menu-item{
+     display: block;
+     width: 100%;
+     height: 150px;
+     margin-bottom: 20px;
+     max-width: 400px;
+}
+@media only screen and (max-width: 767px){
+      .menu-sidebar-container {margin-top: 20px;}
+}
+#menu-sidebar a:hover {
+     background-color: rgba(0,0,0,.2);
+}
+
+#menu-sidebar a {
+     display: block;
+     color: #333;
+     height: 100%;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     padding: 105px 20px 9px 0;
+     font-size: 1.8rem;
+     font-family: "Shadows Into Light Two",cursive;
+     font-weight: 700;
+     width: 100%;
+     box-sizing: border-box;
+     text-align: right;
+     letter-spacing: 1px;
+
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+     #menu-sidebar a {font-size: 1.3em;padding: 113px 14px 8px 0;}
+}
+@media only screen and (min-width: 767px) and (max-width: 959px) {
+     #menu-sidebar a {font-size: 1em;padding: 122px 14px 8px 0;}
+}
+@media only screen and (min-width: 480px) and (max-width:767px) {
+     #menu-sidebar a {font-size: 2em;padding: 87px 30px 8px 0;}
+}
+
+.menu-item-889{
+     position: relative;
+     display: block;
+     background: url(images/highlight.png) no-repeat bottom center/contain,
+          url(images/DIY-tools-of-the-trade.jpg) no-repeat top center/cover;
+}
+.menu-item-890{
+     position: relative;
+     display: block;
+     background: url(images/highlight.png) no-repeat bottom center/contain,
+          url(images/Healthy_living.jpg) no-repeat top center/cover;
+}
+.menu-item-891{
+     position: relative;
+     display: block;
+     background: url(images/highlight.png) no-repeat bottom center/contain,
+          url(images/home-decor.jpg) no-repeat top center/cover;
+}
+
+.featured-image {
+     display: block;
+     float: left;
+     overflow: hidden;
+}
+@media only screen and (max-width: 499px) {
+     .featured-image {float: none;}
+}
+.acp-insert {padding: 10px;}
+.acp-insert > img {margin-bottom: 20px;}
+
+/* 1.5 Accessability
+======================================================*/
+.screen-reader-text {
+     clip: rect(1px, 1px, 1px, 1px);
+     position: absolute !important;
+     height: 1px;
+     width: 1px;
+     overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+     background-color: #f1f1f1;
+     border-radius: 3px;
+     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+     clip: auto !important;
+     color: #21759b;
+     display: block;
+     font-size: 14px;
+     font-size: 0.875rem;
+     font-weight: bold;
+     height: auto;
+     left: 5px;
+     line-height: normal;
+     padding: 15px 23px 14px;
+     text-decoration: none;
+     top: 5px;
+     width: auto;
+     z-index: 100000; /* Above WP toolbar. */
+}
+/* 2.0 Header 
+======================================================================*/
+
+#header {
+     display: block;
+}
+
+#header > img {
+     display: block;
+}
+
+#header .inner {
+     padding-top: 15px;
+     padding-bottom: 20px;
+     display: none;
+}
+
+#header .header_extras:before{clear: both;overflow: hidden;}
+
+#header .header_extras {
+     float: right;
+     position: relative;
+     background: url(../../uploads/2015/01/highlight.png) no-repeat top left/contain;
+     width: 150px;
+     position: relative;
+     height: auto;
+     top: 0;
+     right: 0;
+     overflow: hidden;
+}
+
+h1#site-title {
+     /*    position: relative;
+         font-size: 5.5em;
+         margin: 0;
+         padding: 0;
+         line-height: 100%;
+         letter-spacing: -1px;
+         font-family: "Shadows Into Light", cursive;
+         font-weight: 400;
+         display: block;
+         width: 400px;
+         top: 5px;
+         left: 20px;*/
+     text-indent: -9999px;
+}
+h1#site-title a { 
+     /*    position: relative;
+         left: 105px;
+         top: -10px;*/
+     text-indent: -9999px;
+}
+
+h1#site-title a,
+#header h1#site-title a:hover {
+     cursor: pointer;
+}
+
+/* Header Tagline */
+#header div.desc { 
+     /*    background: url(../../uploads/2015/01/highlight1.png) no-repeat top left/contain;
+         width: 365px;
+         height: 80px;
+         padding-left: 24px; 
+         position: relative;
+         right: 0;
+         top: -70px;
+         float: right;
+         text-align: right;*/
+     text-indent: -9999px;
+}
+#header span.site-desc {
+     /*    margin: 0;
+         padding: 0;
+         line-height: 100%;
+         letter-spacing: -1px;
+         font-size: 1.25em;
+         font-family: "Shadows Into Light Two", cursive;*/
+     text-indent: -9999px;
+}
+
+/* Image Header */
+
+#header #site-title.graphic a {
+     text-indent: -9999px;
+     background-repeat: no-repeat;
+     background-position: left;
+}
+
+/* 3.0 Navigation Bar 
+=================================================================*/
+
+#navigation:before {clear: both;}
+#menuBtn {display: none;}
+#menuBtn:before {font-family:"Genericons";content: '\f419';}
+#navigation {
+     margin-bottom: 20px;
+     margin-top: -1px;
+     clear: both;
+     background: #f2f2f2;
+     padding-bottom: 5px;
+}
+
+#navigation ul,
+#navigation ul li {
+     margin: 0;
+     padding: 0;
+}
+
+#navigation ul {
+     behavior: url("./wp-content/themes/skeleton/PIE.php");
+}
+
+
+#menu-main-nav li {
+     background-image: none;
+     display: inline-block;
+     margin-left: -5px;
+     behavior: url("./wp-content/themes/skeleton/PIE.php");
+}
+
+#menu-main-nav li a{border-right: 3px solid #333;}
+#menu-main-nav li a {
+     color: #333;
+     padding: 10px 30px;
+     text-decoration: none;
+     display: block;
+     background-image: none;
+     font-family: "Open Sans",sans-serif;
+     font-size: 1.2em;
+}
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+     #menu-main-nav li a {font-size: 1.2em;padding: 10px 20px;}
+     .menu-social ul li a{font-size: 1.8em; padding: 5px 15px 0;}
+}
+@media only screen and (min-width: 767px) and (max-width: 959px) {
+     #menu-main-nav li a {font-size: 1em;padding: 7px 15px;}
+     .menu-social ul li a{font-size: 1.5em; padding: 5px 15px 0;}
+}
+@media only screen and (max-width: 767px) {
+     #menu-main-nav li {display: list-item;text-align: center;}
+}
+
+/* Navbar Hover Links */
+
+#navigation ul li:hover,
+#navigation ul li a:hover,
+#navigation ul li.active a:hover {
+     color: #E3FB2F;
+     text-shadow: 2px 2px 1px #000;
+}
+
+#navigation ul li:hover li a {
+}
+
+/* Navbar Active Links */
+
+#navigation ul li.active a {
+     color: #333;
+
+}
+
+
+#navigation ul .menu-item-885 a,
+#navigation ul .menu-item-885.active a{
+     border-right: none !important;
+}
+
+
+/* Nav Sublevel */
+
+#navigation ul.sub-menu,
+#navigation ul.children {
+}
+
+#navigation ul.sub-menu li,
+#navigation ul.children li {
+     border: none;
+}
+
+/* Nav Sublevel Links */
+
+#navigation ul.sub-menu li a,
+#navigation ul.children li a {
+     background: #f0f0f0;
+     padding: 5px 0px 5px 8px;
+     height: 32px;
+     line-height: 32px;
+     min-width: 210px;
+     border-bottom: none;
+     position: static;
+     behavior: none;
+}
+
+/* Nav Sublevel Hover */
+
+#navigation ul.sub-menu li a:hover,
+#navigation ul.children li a:hover {
+     background: #fff;
+     border-bottom: none;
+}
+
+.menu-header{float: left;list-style: none;}
+
+@media only screen and (max-width: 767px) {.menu-header{float: none; display: none;}#menuBtn {display: block;cursor: pointer;font-size: 32px;padding:10px;margin: 10px 0 -15px 10px;}.menu-social{float: right;margin-top: -35px;}}
+.menu-social {
+     display: block;
+     margin-right: 10px;
+}
+.menu-social > ul {
+     float: right;
+     text-align: center;
+     list-style: none;
+     border: none;
+}
+
+.menu-social > ul li {
+     position: relative;
+     display: inline-block;
+     border: none;
+}
+
+.menu-social li a {
+     border: none !important;
+}
+
+.menu-social li a {
+     display: inline-block;
+     padding: 0 5px;
+     vertical-align: top;
+     font-family: 'genericons';
+     font-size: 32px;
+     color: #333;
+     text-decoration: none;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+}
+
+.menu-social li a[href*="facebook.com"]::before {content: '\f203' ;}
+.menu-social li a[href*="twitter.com"]::before {content: '\f202' ;}
+.menu-social li a[href*="instagram.com"]::before {content: '\f215' ;}
+.menu-social li a[href*="pinterest.com"]::before {content: '\f210' ;}
+
+
+/* 3.1 Footer 
+==================================================================*/
+
+#footer {
+     border-top: 1px solid #d6d6d6;
+     font-size: .9em;
+     margin: 20px auto 0 auto;
+     clear: both;
+     padding: 10px 0 10px 0;
+     background-color: #F2F2F2;
+     text-align: center;
+}
+
+#footer.noborder {
+     border: none;
+     padding-top: 0;
+}
+
+#footer #credits {
+     font-size: 11px;
+     color: #9f9f9f;
+     text-align: center;
+}
+
+.themeauthor,
+.themeauthor a:link,
+.themeauthor a:hover,
+.themeauthor a:visited {
+     font-size: 11px;
+     color: #AEAEAE;
+     text-decoration: none;
+}
+
+/* Footer Menu */
+
+#footermenu {
+     margin:  10px auto 0px auto;
+     text-align: center;
+     position: relative;
+     clear: both;
+     color: #333;
+     padding: 10px 30px;
+     text-decoration: none;
+     display: block;
+     background-image: none;
+     font-family: "Open Sans",sans-serif;
+     font-size: 1.1em;
+}
+
+#footermenu ul {
+     display: inline-block;
+}
+
+#footermenu ul, #footermenu li {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+
+#footermenu li {
+     color: #ccc;
+     float: left;
+     margin: 0px 10px;
+}
+
+#footermenu li a {
+     padding: 0;
+     float: none;
+     background: none;
+     display: inline;
+     text-decoration: none;
+     border-bottom: none;
+     font-weight: bold;
+     color: #333;
+}
+
+#footermenu li a:hover {
+     color: #E3FB2F;
+     text-shadow: 2px 2px 1px #000;
+}
+
+#footermenu li.menu-item-last span {
+     display: none;
+}
+@media only screen and (max-width: 655px){
+     #footermenu li {float: none; display: block;}
+     #footermenu li a {margin: 0;display: block;width: 100%;padding:10px;font-size:1.2em;background-color: #999;margin-top: 5px;margin-bottom: 5px;}
+}
+
+/* 4.0 Typography 
+================================================================*/
+body{font-family: "Open Sans",arial,sans-serif;}
+h1, h2, h3, h4, h5 {
+     letter-spacing: -1px;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+     font-weight: inherit;
+     text-decoration: none;
+}
+
+
+h1 {line-height: 140%; margin-bottom: 14px;}
+h2 {line-height: 130%; margin-bottom: 10px;}
+h3 {line-height: 130%; margin-bottom: 8px; }
+h4 {line-height: 125%; margin-bottom: 8px; }
+h5 {line-height: 120%; margin-bottom: 8px;}
+h6 {
+     font-size: 14px;
+     line-height: 120%;
+     margin-bottom: 8px;
+     color: inherit;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #375199;
+}
+
+.subheader { color: #777; }
+.normal {font-weight: normal;}
+.bolder {font-weight: bolder;}
+
+p { margin: 0 0 20px 0; }
+p img { margin: 0; }
+p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+em { font-style: italic; }
+strong { font-weight: bold; color: #333; }
+small { font-size: 80%; }
+
+/*	Blockquotes  */
+
+blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+blockquote cite { display: block; font-size: 12px; color: #555; }
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+hr { border: solid #ccc; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+.categories-links {
+     float: left; 
+     display: block; 
+     background: url(images/highlight.png)no-repeat left/cover; font-family: "Shadows Into Light Two", cursive; font-weight: 700;
+     width: 250px;
+     -moz-transform: scaleX(-1);
+     -o-transform: scaleX(-1);
+     -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+     filter: FlipH;
+     -ms-filter: "FlipH";
+}
+.categories-links a {display: block; text-align: left; color: #333 !important; letter-spacing: 0;padding-left: 10px;box-sizing: border-box;
+                     -moz-transform: scaleX(-1);
+                     -o-transform: scaleX(-1);
+                     -webkit-transform: scaleX(-1);
+                     transform: scaleX(-1);
+                     filter: FlipH;
+                     -ms-filter: "FlipH";
+}
+/* # 4.1 Links
+================================================== */
+a, a:visited {text-decoration: underline; outline: 0; }
+a:hover, a:focus { text-decoration: none;}
+p a, p a:visited { line-height: inherit; }
+
+
+/* # 4.2 Lists
+================================================== */
+ul, ol { margin-bottom: 20px; }
+ul { list-style: disc inside; }
+ol { list-style: decimal; }
+ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+ul ul, ul ol,
+ol ol, ol ul { margin: 4px 0 5px 30px;}
+ul ul li, ul ol li,
+ol ol li, ol ul li { margin-bottom: 6px; }
+li { margin-bottom: 12px; }
+ul.large li { line-height: 21px; }
+li p { line-height: 21px; }
+abbr,acronym {
+     border-bottom: 1px dotted #333;
+     cursor: help;
+     cursor: alias;
+}
+cite {
+     font-style: italic;
+     font-family: Georgia, serif;
+}
+q {
+     font-style: italic;
+}
+
+
+/* # 4.3 Image Alignment Classes
+================================ */
+
+.alignright {
+     float: right;
+     margin: 0px 0px 10px 15px;
+}
+
+.alignleft {
+     float: left;
+     margin: 0px 15px 10px 0px;
+}
+.aligncenter {
+     display:block;
+     margin:0 auto 10px auto;
+}
+
+.full-width {
+     width:100%;
+     height:auto;
+     overflow:hidden;
+}
+
+/* # 4.4 Images
+================================ */
+
+img.scale-with-grid,
+.entry-content img,
+.entry-summary img,
+.comment-content img,
+.widget img,
+.wp-caption {
+     max-width: 100% !important;
+     height: auto;
+}
+
+
+/* # 4.5 WP Captions 
+================================ */
+
+.wp-caption {
+     text-align: center;
+     padding: 5px;
+     margin: 10px auto;
+}
+
+
+.wp-caption {
+     border: 1px solid #fff;
+     background-color: #f6f6f6;
+     color: #666;
+     text-shadow: 1px 1px 0px #fff;
+     -webkit-box-shadow:1px 1px 6px #ddd;
+     -moz-box-shadow:1px 1px 6px #ddd;
+     box-shadow:1px 1px 6px #ddd;
+     position: relative;
+     behavior: url('../wp-content/themes/skeleton/css/PIE.php');
+}
+
+.wp-caption img {
+     margin: 0;
+     padding: 0;
+     border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+     font-size: 11px;
+     line-height: 17px;
+     padding: 5px 0 0px 0;
+     margin: 0;
+}
+
+.wp-caption.alignleft {
+     margin: 0px 10px 0px 0px;
+}
+.wp-caption.alignright {
+     margin: 0px 0px 0px 10px;
+}
+
+/* 5.0 Tables 
+==============================================================*/
+
+table {
+     margin: .5em 0 1em;
+}
+
+table th {
+     text-align: left;
+     border: 1px solid #d1d1d1;
+     padding: .4em .8em;
+     background: #ddd url(images/gradient_small_trans.png) repeat-x 0 top;
+     font-weight: bold;
+}
+
+table td {
+     border: 1px solid #d1d1d1;
+     padding: 10px;
+}
+
+/* @end */
+
+/* # 6.0 Widgets 
+============================================================== */
+
+
+li.widget-container {
+     list-style: none;
+}
+
+.widget-container ul ul {
+     list-style: square;
+     margin-left: 1.3em;
+}
+
+.widget-container select {
+     max-width: 100%;
+}
+
+.widget_search #s {/* This keeps the search inputs in line */
+     width: 60%;
+}
+
+.widget_search label {
+     display: none;
+}
+
+.widget-container {
+     margin: 0 0 28px 0;
+     padding-top: 1px;
+}
+
+.widget-container ul {
+     margin-left: 0;
+}
+
+.widget-title {
+     font-weight: normal;
+}
+
+input#searchsubmit {
+     margin-bottom: 0;
+}
+
+.widget-container a:link,
+.widget-container a:visited {
+     text-decoration: none;
+}
+
+.widget-container a:active,
+.widget-container a:hover {
+     text-decoration: underline;
+}
+
+.widget-container .entry-meta {
+     font-size: 11px;
+}
+
+#wp_tag_cloud div {
+     line-height: 1.6em;
+}
+
+
+#sidebar .widget_recent_entries ul,
+#sidebar .widget_categories ul,
+#sidebar .widget_archive ul,
+#sidebar .widget_recent_comments ul,
+#sidebar .widget_meta ul {
+     list-style: none;
+}
+#sidebar .widget_recent_entries li,
+#sidebar .widget_categories li,
+#sidebar .widget_archive li,
+#sidebar .widget_recent_comments li,
+#sidebar .widget_meta li {
+     border-bottom: 1px solid #eee;
+}
+
+
+/* # 5.1 Search Form 
+================================= */
+
+
+#searchform input#s {
+     float: left;
+     -webkit-border-radius:4px 0px 0px 4px;
+     -moz-border-radius:4px 0px 0px 4px;
+     border-radius:4px 0px 0px 4px;
+     height: 32px;
+}
+#searchform #searchsubmit {
+     margin:0;
+     -webkit-border-radius:0px 4px 4px 0px;
+     -moz-border-radius:0px 4px 4px 0px;
+     border-radius:0px 4px 4px 0px;
+     height: 32px;
+     line-height: 1 !important;
+}
+#content #searchform label {
+     float: left;
+     line-height: 32px;
+     height: 32px;
+     padding-right: 10px;
+}
+
+
+
+/* # 5.2 WP Calendar Widget 
+================================= */
+
+#wp-calendar {
+     font-family: arial,helvetica,sans-serif;
+     width: 100%;
+     font-size: .85em;
+}
+
+#wp-calendar td {
+     padding: 4px 0;
+     text-align: center;
+     border: 1px solid #d2d2d2;
+     background-color: #ededed;
+     text-shadow: #fff 1px 1px 0;
+     color: #7c7c7c;
+}
+
+#wp-calendar td.pad {
+     background-color: #e5e5e5;
+}
+
+#wp-calendar td#today {
+     color: #fff;
+     background-color: #6e6e6e;
+     text-shadow: 1px 1px 0px #333;
+}
+
+#wp-calendar caption {
+     font-weight: bold;
+}
+
+#wp-calendar th {
+     font-style: normal;
+     background: #ddd url(images/gradient_small_trans.png) repeat-x 0 top;
+     border: 1px solid #ccc;
+     padding: 5px;
+     color: #666;
+     text-shadow: #ebebeb 0 1px 0;
+}
+
+/* 5.3 WP RSS Widget 
+================================= */
+
+.widget_rss a.rsswidget {
+     color: #000;
+}
+.widget_rss a.rsswidget:hover {
+     color: #ff4b33;
+}
+.widget_rss .widget-title img {
+     width: 11px;
+     height: 11px;
+}
+
+/* # 5.3 Indent Sidebar Lists 
+================================= */
+
+.widget-container ul ul {
+     border: none;
+     margin-left: 1.3em;
+     padding: 0;
+}
+
+/* # 5.4 Page Menus/Custom Menus 
+================================= */
+
+li.page_item,li.menu-item {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+}
+
+
+li.page_item a,li.menu-item a {
+     display: block;
+     padding: 8px 0px 8px 24px;
+     line-height: 120%;
+     font-weight: bold;
+}
+@media only screen and (min-width: 959px) and (max-width: 1199px) {
+  li.page_item a,li.menu-item a {
+     font-size: .9em;
+     padding: 8px 2px 5px 15px;
+     line-height: 100%;
+}   
+}
+@media only screen and (min-width: 767px) and (max-width: 959px) {
+  li.page_item a,li.menu-item a {
+     font-size: .8em;
+     padding: 8px 2px 5px 7px;
+     line-height: 100%;
+}   
+}
+li.page_item a:hover,li.menu-item a:hover {
+     background: url(images/arrow_bullet_hover.png) no-repeat 10px;
+}
+
+/* Page Menus/Custom Menus - Sublevels */
+
+li.page_item li a,li.menu-item li a {
+     display: inline;
+     padding: 0;
+     margin: 0;
+     background: none;
+     border: none;
+     color: #666;
+     line-height: 175%;
+     font-weight: normal;
+}
+li.page_item li a:hover,li.menu-item li a:hover {
+     background: none;
+}
+
+li.page_item a:hover,
+li.menu-item a:hover {
+     text-decoration: none;
+     color: #3376ea;
+}
+
+/* # 7.0 WP Blog 
+================================================================== */
+
+.sticky {
+     padding: 1em 0;
+     margin: 1em auto;
+     border: 10px solid #eee;
+     border-left: none;
+     border-right:none;
+}
+
+.entry-meta,.entry-utility {
+     font-size: 11px;
+     color: #666;
+     padding-bottom: 10px;
+     margin-bottom: 10px;
+}
+.entry-utility {
+     border-bottom: 1px solid #eee;
+     clear: both;
+}
+.entry-summary {overflow: hidden;}
+.cat-links,.comments-link,.meta-sep,.entry-utility {
+     font-size: 11px;
+     color: #666;
+}
+
+.post {
+     margin-bottom: 30px;
+     padding-bottom: 10px;
+}
+
+.post.single {
+     border-bottom: none;
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+}
+
+a.more-link {
+     display: block;
+     float: right;
+     font-weight: bold;
+}
+
+.skeleton_relatedposts h4 {
+     border-bottom: 1px solid #eee;
+}
+
+.skeleton_relatedposts ul {
+     color: #666;
+     list-style: square;
+     margin-left: 20px;
+}
+
+.skeleton_relatedposts ul li {
+}
+
+/* # 8.0 Buttons 
+================================================================== */
+
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button a  {
+     background-image: none;
+     margin: .5em 0;
+     margin-bottom: 0 !important;
+     display: inline-block;
+     font-stretch: narrower;
+     font-weight: normal;
+     white-space: nowrap;
+     padding: .5em 1em !important;
+     font-size: 1em !important;
+     color: white !important;
+     line-height: 1.5em;
+     text-align: center;
+     text-decoration: none;
+     vertical-align: middle;
+     border: none;
+     text-shadow: 0 1px 0px #185597;
+     -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+     -ms-border-radius: 2px;
+     -o-border-radius: 2px;
+     border-radius: 2px;
+     background: #1d65b3;
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a72c0), color-stop(100%, #1d65b3));
+     background: -webkit-linear-gradient(top, #2a72c0 0%, #1d65b3 100%);
+     background: -o-linear-gradient(top, #2a72c0 0%, #1d65b3 100%);
+     background: -ms-linear-gradient(top, #2a72c0 0%, #1d65b3 100%);
+     background: -moz-linear-gradient(top, #2a72c0 0%, #1d65b3 100%);
+     background: linear-gradient(top bottom, #2a72c0 0%, #1d65b3 100%);
+     background-clip: border-box;
+     -pie-background: linear-gradient(top, #2a72c0, #1d65b3);
+     behavior: url("PIE.htc");
+     position: relative;
+     background-repeat: repeat-x;
+}
+
+.button a:hover {
+     text-decoration: none !important;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+a.button:hover {
+     background: #156bc6;
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #156bc6), color-stop(100%, #156bc6));
+     background: -webkit-linear-gradient(top, #156bc6 0%, #156bc6 100%);
+     background: -o-linear-gradient(top, #156bc6 0%, #156bc6 100%);
+     background: -ms-linear-gradient(top, #156bc6 0%, #156bc6 100%);
+     background: -moz-linear-gradient(top, #156bc6 0%, #156bc6 100%);
+     background: linear-gradient(top bottom, #156bc6 0%, #156bc6 100%);
+     background-clip: border-box;
+     -pie-background: linear-gradient(top, #156bc6, #156bc6);
+     behavior: url("PIE.htc");
+     position: relative;
+     cursor: pointer;
+}
+
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+a.button:active {
+     -webkit-box-shadow: inset 0 2px 6px 0 #0e4177, inset 0 0 0 0 #0e4177, 0 1px 1px 0 #eeeeee;
+     -moz-box-shadow: inset 0 2px 6px 0 #0e4177, inset 0 0 0 0 #0e4177, 0 1px 1px 0 #eeeeee;
+     box-shadow: inset 0 2px 6px 0 #0e4177, inset 0 0 0 0 #0e4177, 0 1px 1px 0 #eeeeee;
+}
+
+a.button span.btn_caption {
+     color: #acd3f1 !important;
+     text-shadow: 0 1px 0 #3B639B;
+}
+
+/* # 9.0 Toggles 
+================================================================== */
+
+/* # 10.0 Toggles 
+================================================================== */
+
+
+/* # 11.0 Callouts 
+================================================================== */
+
+
+/* # 12.0 Comments 
+================================================================== */
+
+#respond {margin:0px;float:left;border-top: 1px solid #eee;padding-top: 10px;width: 100%;}
+
+#respond input[type=text] { width:300px; margin-right:20px; }
+#respond textarea {width:550px; height:120px; padding:10px; }
+#comments { float:left; margin:0;}
+
+#comments {border: 0;width: 100%;}
+body.dark #comments {background: url(images/dark/divider.png) repeat-x right top;}
+
+#comments h2 {
+     font-size: 1.5em;
+     border-bottom: 1px solid #eee;
+     font-weight: bold;
+}
+#comments h6 {font-family: "Times New Roman", Times, serif;letter-spacing: normal;text-transform: uppercase;margin: 10px 0px;}
+
+#comments .comment-meta { margin:0px 0px 20px 0px; display:block;}
+#comments .commentlist { margin:0px; float:left; list-style:none; width:100%;  }
+#comments .commentlist ul { list-style:none; margin:0; padding:0; clear:both; }
+#comments .commentlist li {margin:0; padding:0;  display:block;}
+#comments .commentlist li li { margin:0 0 20px 25px; }
+#comments .commentlist li li .comment-meta{ width:445px; }
+#comments .commentlist li li li {margin:0 0 20px 25px;}
+#comments .commentlist li li li .comment-meta{ width:420px; }
+#comments .commentlist li li li li {margin:0 0 20px 25px; }
+#comments .commentlist li li li li .comment-meta{ width:395px; }
+#comments .commentlist li li li li li {margin:0 0 20px 25px;}
+#comments .commentlist li li li li li .comment-meta{ width:370px; }
+
+#comments .single-comment { margin-bottom:20px; }
+#comments .comment-author { float:left; margin: 0px 10px 6px 0px; display:inline; width:50px; }
+#comments .comment-author cite { clear:both; font-weight:bold; }
+
+#comments .vcard {
+     float:left;
+     clear:both;
+     display:block;
+     width:100px;
+     min-height: 100px;
+     padding:20px 0;
+}
+#comments .vcard img.avatar {
+     border: 1px solid #eee;
+     padding: 2px;
+     background:#f4f4f4;
+}
+
+#comments .vcard {
+     background:url(images/comment_author_bg.png) no-repeat top right;
+}
+
+
+/* # 12.1 Pingbacks 
+================================= */
+
+
+#comments .commentlist li.pingback,
+#comments .commentlist li.pingback ul,
+#comments .commentlist li.pingback ul li,
+#comments .commentlist li.pingback .vcard {
+     margin: 0;
+     padding: 0;
+}
+
+#comments .commentlist li.pingback .vcard {
+     background:none;
+     width: 0;
+}
+#comments .commentlist li.pingback p {
+     font-size: .80em;
+     line-height: 1.45em;
+     color: #6D6D6D;
+}
+#comments .commentlist li.pingback h6 {
+     text-transform: none;
+}
+
+/* # 13.0 WP Gallery 
+================================================================== */
+
+.gallery {
+     display: block;
+     clear: both;
+     overflow: hidden;
+     margin: 0 auto;
+}
+
+.gallery .gallery-row {
+     display:block;
+     clear: both;
+     overflow: hidden;
+     margin: 0;
+}
+
+.gallery .gallery-item {
+     overflow: hidden;
+     float: left;
+     margin: 0;
+     text-align: center;
+     list-style: none;
+     padding: 0;
+}
+.gallery .gallery-item img,
+.gallery .gallery-item img.thumbnail {
+     max-width: 79%;
+     height: auto;
+     padding: 0;
+     margin: 5px auto;
+     border: 1px solid #fff;
+     background-color: #fff;
+     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+     -pie-box-shadow: 0px 0px 5px #ccc;
+     position: relative;
+     behavior: url("./wp-content/themes/skeleton/PIE.php");
+}
+
+.gallery-caption {
+     color: #666;
+     font-size: 11px;
+     line-height: 12px;
+     margin: 0;
+     padding: 0;
+}
+
+/* # 13.1 Pagination 
+================================================================== */
+
+
+/* # 13.2 Single Posts and Attachment Pages 
+================================= */
+
+#nav-below {
+     width: 100%;
+     display: inline-block;
+     padding-bottom: 6px;
+     font-size: 1em;
+}
+#nav-below a {
+     text-decoration: none;
+}
+.nav-next, .nav-prev {font-family: "Open Sans",sans-serif;}
+.nav-prev:before {
+     font-family: "Genericons";
+     content: '\f503  ';
+}
+.nav-prev {
+     padding-left: 18px;
+}
+.nav-next:after{ 
+     font-family: "Genericons";
+     content: '  \f501';
+}
+.nav-next {
+     padding-right: 18px;
+}
+
+.nav-prev {float: left;}
+.nav-next {float: right;}
+
+
+/* # 13.3 Default Multi-Page Navigation 
+================================= */
+
+.page-link {
+     padding: 4px 0;
+     font-size: .90em;
+}
+.page-link a {
+     border-bottom: 1px solid #ccc;
+     text-decoration: none;
+     padding: 2px 4px;
+     line-height: 1;
+}
+
+/*  # 13.4 wp-pagenavi
+================================= */
+
+.wp-pagenavi {
+     position: relative;
+     text-align: center;
+}
+
+.wp-pagenavi span.pages {
+    color: #333;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0.4em;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wp-pagenavi a {
+     font-size: 1em;
+     padding: 4px;
+     margin: 0px 8px 10px 0px;
+     text-decoration: none;
+}
+
+.wp-pagenavi a.previouspostslink,
+.wp-pagenavi a.nextpostslink {
+     font-family: "Genericons";
+     border-bottom: none;
+}
+
+.pages {
+     display: inline-block;
+     width: 100%;
+}
+
+.pages a {
+     text-decoration: none;
+}
+
+.pages span.newer,
+.pages span.older {
+     font-size: 11px;
+     line-height: 20px;
+     font-weight: bold;
+}
+
+p.paged {
+     padding: 10px 0px 10px 0px;
+     margin: 0;
+     font-weight: bold;
+}
+
+.current {
+     font-size: 1.1em;
+     font-weight: 700;
+     padding: 4px;
+     margin: 0px 8px 10px 0px;
+     text-decoration: none;
+     border-bottom: 2px solid;
+     color: #3376ea;
+}
+
+/* # 13.5 Numbered Pagination 
+================================= */
+
+.pagination {
+     clear: both;
+     padding: 0px 0 20px 0;
+     position: relative;
+     font-size: 11px;
+     line-height: 13px;
+     margin: 0px auto;
+     display: block;
+     text-align: center;
+}
+
+.pagination span, .pagination a:link {
+     display: inline-block;
+     margin: 2px 2px 2px 0;
+     padding: 6px 9px 5px 9px;
+     text-decoration: none;
+     width: auto;
+}
+
+.pagination a:hover,
+.pagination .current {
+     padding: 6px 9px 5px 9px;
+}
+
+/* # 13.6 Post Pagination Links 
+================================= */
+
+.post_pagination {
+     margin-top: 20px;
+     margin-bottom: 10px;
+}
+
+.prevpost {
+     float: left;
+}
+
+.nextpost {
+     float: right;
+}
+
+/* # 13.6.1 pagination links 
+================================= */
+
+.prevpost a,.nextpost a {
+     font-size: .95em;
+     display: block;
+     text-decoration: none;
+     font-weight: bold;
+
+}
+
+.prevpost a:hover,.nextpost a:hover {
+     color: inherit;
+     text-decoration: none;
+     background-color: #fff;
+}
+
+/* 14.0 Misc 
+================================================================== */
+
+
+/* Apply CSS class of "guest" to hide menu items from logged-in users */
+
+body.logged-in li.guest {
+     display: none;
+}
+.no-margin {margin: auto 0 !important;}
+
+
+/* # 14.1 Forms (see formalize.css)
+================================================== */
+
+
+label,legend {
+     font-weight: bold;font-size: 13px;
+     display: inline-block;
+}
+
+input[type="checkbox"] {display: inline; }
+
+/* # 14.2 Misc Typography Classes
+================================= */
+.remove-bottom { margin-bottom: 0 !important; }
+.half-bottom { margin-bottom: 10px !important; }
+.add-bottom { margin-bottom: 20px !important; }
+.add-top { margin-top: 20px !important; }
+.bypostauthor,.gallery-caption {}
+
+/* @group IE CSS3 */
+
+html.ie #navigation,
+html.ie a.button,
+html.ie .cta,
+html.ie .wp-caption,
+html.ie #breadcrumbs,
+html.ie a.more-link,
+html.ie .gallery .gallery-item img,
+html.ie .gallery .gallery-item img.thumbnail,
+html.ie .widget-container,
+html.ie #author-info {
+     behavior: url("PIE.php");
+     position: relative;
+}
+
+/* @end */
+
+.featured-image {background-color: #f2f2f2;border: 1px solid #333;width: 170px;text-align: center;margin-right: 20px;margin-bottom: 15px;}
+.featured-image > img {display: block;box-sizing: border-box;margin: 5px auto;padding:1px;}
+.featured-image > .caption {display: block;position: relative; left: 0;text-align: center;font-family: "Shadows Into Light Two";font-size:.9em;padding: 0 5px;}
+.home-post-content {display: block;position: relative;padding: 5px;}
+
+/* # 15.0 Custom Menus in Footer
+ ==================================*/
+.text-2, .text-3 {
+     font-size: 1.4em;
+     letter-spacing: 0;
+}
+.widget-title {
+     /*     font-family: "Shadows Into Light Two", cursive;*/
+     font-size: 1.2em;
+     font-weight: 700;
+     letter-spacing: 1px;
+}
+
+#footer .one_half:nth-of-type(1){
+     width: 40%;
+     box-sizing:border-box;
+     -moz-box-sizing:border-box;
+     -webkit-box-sizing:border-box;
+     margin-right: 0;
+}
+@media only screen and (max-width: 767px) {#footer .one_half:nth-of-type(1){border:none;}}
+.nav_menu-3 {
+     text-align: center;
+     width: 60%;
+     float: left;
+}
+
+#menu-our-affiliate-websites {
+     text-align: left;
+     border-right: #333 1px solid;
+}
+
+.nav_menu-4 {
+     text-align: center;
+     width:40%;
+     float: left;
+}
+
+#menu-follow-us {
+     text-align: left;
+     display: inline-block;
+}
+
+.menu-follow-us-container li {
+     float: left;
+}
+.menu-follow-us-container li a {
+     /*     display: inline-block;*/
+     padding: 0 5px;
+     vertical-align: top;
+     font-family: 'genericons';
+     font-size: 48px;
+     color: #333;
+     text-decoration: none;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+}
+@media only screen and (min-width: 767px) and (max-width: 959px) {
+.menu-follow-us-container li a {
+     padding: 0 5px;
+     font-size: 36px;
+}
+}
+.menu-follow-us-container li a:hover {
+     color: #E3FB2F;
+     text-shadow: 2px 2px 1px #000;
+}
+
+.menu-follow-us-container li a[href*="facebook.com"]::before {content: '\f203' ;}
+.menu-follow-us-container li a[href*="twitter.com"]::before {content: '\f202' ;}
+.menu-follow-us-container li a[href*="instagram.com"]::before {content: '\f215' ;}
+.menu-follow-us-container li a[href*="pinterest.com"]::before {content: '\f210' ;}
+
+#footer .one_half:nth-of-type(2){
+     width: 60%;
+}
+
+.nav_menu-5 {
+     text-align: center;
+     float: left;
+     width: 32%;
+     padding: 3px;
+     border-left: #333 1px solid;
+}
+@media only screen and (max-width: 767px){
+     .nav_menu-5 {border-left: none;}
+}
+#menu-diy-2 {
+     text-align: left;
+}
+
+.nav_menu-6 {
+     text-align: center;
+     float: left;
+     width: 32%;
+     border-left: #333 1px solid;
+     padding: 2px;
+}
+
+#menu-home-decor {
+     text-align: left;
+}
+
+.nav_menu-7 {
+     text-align: center;
+     float: left;
+     width: 31%;
+     padding: 3px;
+     border-left: #333 1px solid;
+}
+
+#menu-healthy-living {
+     text-align: left;
+}
+
+.category-image-header{position: relative;margin-top: 1px;margin-bottom: 35px;}
+.category-image {max-width: 100%; height: auto;display: block;}
+.category-image-header .page-title {margin-bottom: 0;box-sizing: border-box;position: absolute; bottom: 0;width: 100%;padding: 20px;font-family: "Shadows Into Light Two",cursive;font-weight: 700; font-size:4em;letter-spacing: 2px;color: #fff; background-color: rgba(0,0,0,.6);}
+@media only screen and (max-width: 500px) {
+     .category-image-header .page-title {font-size: 2em;}
+     .nav_menu-3, .nav_menu-4, .nav_menu-5, .nav_menu-6, .nav_menu-7 {text-align: center;float: none;width: 98%;}
+     .nav_menu-5, .nav_menu-6, .nav_menu-7 {border-left: none;}
+     #menu-our-affiliate-websites {border: none;}
+     .menu-follow-us-container, .menu-healthy-living-3-container {border-bottom: 1px solid #333;}
+     .text-3, .text-2 {font-size: 1.5em;}
+     #menu-our-affiliate-websites, #menu-diy-2, #menu-home-decor, #menu-healthy-living {text-align: center;margin-right: 4%;}
+}

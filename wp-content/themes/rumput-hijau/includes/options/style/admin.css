@@ -1,0 +1,93 @@
+/*
+ * Rumput Hijau Theme Options 1.0.7
+ */
+
+#options{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 0;
+    width: 70%;
+}
+#options select {
+	width:10em;
+}
+#options h3 { 
+	overflow: hidden; 
+	border-bottom-color: #DFDFDF; 
+	text-shadow: white 0 1px 0; 
+	-moz-box-shadow: 0 1px 0 #fff; 
+	-webkit-box-shadow: 0 1px 0 #fff; 
+	box-shadow: 0 1px 0 #fff; 
+	background-color: #F1F1F1; 
+	background-image: -ms-linear-gradient(top,#f9f9f9,#ececec); 
+	background-image: -moz-linear-gradient(top,#f9f9f9,#ececec); 
+	background-image: -o-linear-gradient(top,#f9f9f9,#ececec); 
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#f9f9f9),to(#ececec)); 
+	background-image: -webkit-linear-gradient(top,#f9f9f9,#ececec); 
+	background-image: linear-gradient(top,#f9f9f9,#ececec);
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    padding: 20px;
+	position: relative;
+}
+#options h3:hover {
+	background: #f3f3f3;
+	cursor: pointer;
+}
+
+.form-table{
+	position: relative;
+	display: block;
+}
+.form-table tr {
+	border-bottom: 1px solid #eee;
+	display: inline-block;
+	padding: 0 10px;
+	width: 97.5%;
+}
+.form-table th {
+	font-weight: bold;
+}
+.form-table label  {
+	display: block;
+}
+th.title {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    padding: 10px 0 10px 5px;
+}
+#options .form-table select {
+	width: 25em;
+}
+.post-titles{
+    float: left;
+    padding: 4px 0 0;
+}
+.save_button {
+    float: right;
+    margin-right: 10px;
+}
+#admin_side {
+	float:left;
+	width:28%;
+}
+select#category,
+select#style {
+	width:200px;
+}
+p.submit {
+	margin-left:10px;
+}
+.layouts {
+	width: 140px;
+	display: inline;
+	float: left;
+	margin-right: 25px;
+}
+input.choose-layout {
+	display: block;
+	margin: 0 auto;
+}

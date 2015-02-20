@@ -1,0 +1,2 @@
+[23-Jan-2014 07:41:27 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/diyalog/public_html/wp-content/themes/DIYalogue/404.php on line 1
+[23-Jan-2014 14:54:04 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/diyalog/public_html/wp-content/themes/DIYalogue/404.php on line 1

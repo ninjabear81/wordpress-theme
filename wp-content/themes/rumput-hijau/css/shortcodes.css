@@ -1,0 +1,68 @@
+/*
+File Name: 		Shortcodes
+Description: 	Shortcode lists for rumput hijau theme
+Version: 		1.0.0
+Author: 		Satrya
+Since:			Rumput_Hijau 1.0.8
+License: 		GNU General Public License v3
+License URI: 	http://www.gnu.org/licenses/gpl-3.0.html
+*/
+.notice {
+  display: block;
+  margin: 5px 0 10px;
+  padding: 10px 10px 10px 30px;
+}
+
+.normal {
+  background: #eeeeee url(../images/shortcodes/normal.png) no-repeat 7px 15px;
+  border: 1px solid #ddd;
+  color: #888;
+}
+
+.warning {
+  background: #fff6bf url(../images/shortcodes/warning.png) no-repeat 7px 15px;
+  border: 1px solid #ffd324;
+  color: #514721;
+}
+
+.tip {
+  background: #fef6d2 url(../images/shortcodes/idea.png) no-repeat 7px 15px;
+  border: 1px solid #EFE3AE;
+  color: #514721;
+}
+
+.info {
+  background: #d5edf8 url(../images/shortcodes/info.png) no-repeat 7px 15px;
+  border: 1px solid #92cae4;
+  color: #205791;
+}
+
+.error {
+  background: #fbe3e4 url(../images/shortcodes/error.png) no-repeat 7px 15px;
+  border: 1px solid #fbc2c4;
+  color: #8a1f11;
+}
+
+.download {
+  background: #e6efc2 url(../images/shortcodes/download.png) no-repeat 7px 15px;
+  border: 1px solid #c6d880;
+  color: #264409;
+}
+
+.success {
+  background: #edfcd5 url(../images/shortcodes/success.png) no-repeat 7px 15px;
+  border: 1px solid #D4EBAF;
+  color: #264409;
+}
+
+.help {
+  background: #b8e1f3 url(../images/shortcodes/help.png) no-repeat 7px 15px;
+  border: 1px solid #77bddd;
+  color: #205791;
+}
+
+.delete {
+  background: #f7c5c7 url(../images/shortcodes/delete.png) no-repeat 7px 15px;
+  border: 1px solid #f9a2a5;
+  color: #7b1c0f;
+}

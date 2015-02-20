@@ -1,0 +1,2 @@
+[28-Dec-2013 23:27:42 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/diyalog/public_html/wp-content/themes/twentyten/search.php on line 10
+[01-Jun-2014 10:18:56 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/diyalog/public_html/wp-content/themes/twentyten/search.php on line 10

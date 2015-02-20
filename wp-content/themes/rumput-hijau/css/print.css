@@ -1,0 +1,87 @@
+/*
+File Name: 		Print
+Description: 	Style for print document
+Version: 		1.0.0
+Author: 		Satrya
+Since:			Rumput_Hijau 1.0.0
+License: 		GNU General Public License v3
+License URI: 	http://www.gnu.org/licenses/gpl-3.0.html
+*/
+ 
+/* Reset Style */
+body {	
+	margin:0; 
+	padding:0; 
+	line-height: 2em; 
+	word-spacing:1px; 
+	letter-spacing:0.2px; 
+	font: 11pt Arial, Helvetica,"Lucida Grande", serif; 
+	color: #000;
+}
+
+/* Remove Element */
+#primary-nav,
+#header,
+#breadcrumbs,
+#sidebar,
+.entry-meta,
+.post-nav,
+.post-pages,
+.content-left,
+.comments-box,
+#footer {		
+	display: none;
+	visibility: hidden;
+}
+
+/* Show URL */
+a:link, a:visited {background: transparent; color:#333; text-decoration:none;}
+a:link[href^="http://"]:after, a[href^="http://"]:visited:after {content: " (" attr(href) ") "; font-size: 11px;}
+a[href^="http://"] {color:#000;}
+
+/* Break Page */
+.comments-box{
+	page-break-before: always;
+}
+
+/* Other style */
+.content-right {
+	width: 100%;
+}
+
+p{
+	line-height:1.5em;
+}
+
+img.aligncenter,
+img.alignleft,
+img.alignright,
+img.alignnone {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.alignleft,
+.commentlist .avatar {
+	float:left;
+	margin:0 10px 0;
+}
+
+img.alignright{
+	float:right;
+	margin:0 0 0 10px;
+}
+
+img.alignnone{
+	margin:0;
+}
+
+.comments-box ul li,
+.comments-box ul li ul li
+.comments-box ol li,
+.comments-box ol li ol li,
+.commentlist li{
+	list-style:none;
+}

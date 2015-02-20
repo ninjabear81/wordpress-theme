@@ -1,0 +1,65 @@
+1.1.2 - 15 Apr 2012
+- Fix stumbleupon share button(double http://)
+- Fix pinterest button bug
+- Modified the floating share buttons
+- Add new 3 custom header
+- Update jquery
+- Add Indonesian language pack
+
+1.1.1 - 01 Apr 2012
+- Add Responsive layout
+- Add meta verification options
+- Improve css framework
+- Add a custom browser selector
+- add formalize + modernizr + normalize.css
+- Fix floating social button bug
+- Another update for Polish language
+- Language update
+
+1.1.0 - 20 Mar 2012
+- A few theme updates
+- Update Polish language pack
+- Add Czech language pack
+- Add a stumbleupon share button
+
+1.0.9 - 12 Mar 2012
+- Fix fb like bug
+- Add Polish language pack
+
+1.0.8 - 28 Feb 2012
+- Major updates
+- Add a notice shortcode
+- Add sitemap page template
+- Support child theme customization
+- Add print stylesheet
+- Add custom social share button (twitter, FB like, google+ & pinterest)
+
+1.0.7 - 23 Feb 2012
+- Breadcrumbs bug
+- Theme options bug
+
+1.0.6 - 22 Feb 2012
+- Add support post-format (aside, gallery, image, link, video, quote)
+- Improve the typography
+- Add custom floating social share button
+- Support open graph tags
+- Update translation
+
+1.0.5 - 15 Feb 2012
+- Css improvement
+
+1.0.3 - 15 Feb 2012
+- Add a translation support code (I forgot this one) :D
+
+1.0.2 - 08 Feb 2012
+- Fix Iframe not resizing correctly in IE 7
+- Extra space showing just below footer, when user type too many text in credit information
+
+1.0.1 - 08 Feb 2012
+- Fix theme options bug
+- Fix CSS issue in IE
+- Add post navigation in single page
+- Language update
+
+1.0.0 - 29 Jan 2011
+- Release
